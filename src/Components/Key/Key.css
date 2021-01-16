@@ -1,0 +1,52 @@
+@font-face{
+    font-family: "Playfair";
+    src: url('../../fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf') format(truetype);
+    weight: bold;
+}
+.key {
+    font-size: 22px;
+    font-family: 'Playfair';
+    font-weight: bold;
+    padding: 1rem;
+    cursor:pointer;
+    border-radius:1rem;
+    border:2px solid black;
+    min-width:2rem;
+    margin-top:0.25rem;
+}
+
+.unused {
+    background-color: azure;
+}
+
+.used {
+    background-color: lightseagreen;
+}
+
+.pressed {
+    color:grey;
+    transform:scale(1.05);
+    transition: transform 150ms, color 150ms;
+    
+}
+
+.released {
+    color: black;
+    transform: scale(1);
+    transition: transform 150ms, color 150ms;
+}
+
+@media (max-width: 510px){
+    .key {
+        font-size:18px;
+        font-family: 'Playfair';
+        font-weight: normal;
+        border: 1px solid black;
+    }
+}
+
+@media (max-width: 400px){
+    .key {
+        min-width: 1rem;
+    }
+}

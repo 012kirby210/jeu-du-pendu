@@ -1,0 +1,24 @@
+.keyboard {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    max-width: 30vw;
+    text-align:center;
+}
+@media (max-width: 1360px){
+    .keyboard {
+        max-width:50vw;
+    }
+}
+
+@media (max-width: 816px){
+    .keyboard {
+        max-width:80vw;
+    }
+}
+
+@media (max-width: 510px){
+    .keyboard {
+        max-width:99vw;
+    }
+}

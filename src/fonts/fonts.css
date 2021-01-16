@@ -1,0 +1,5 @@
+@font-face {
+    font-family: "Playfair";
+    src: url('./static/PlayfairDisplay-Regular.ttf') format("truetype");
+    font-weight: normal;
+}
